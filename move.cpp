@@ -6,7 +6,7 @@ Move::Move(double a, double b){
     y = b;
 }
 void Move::showmove() const{
-    std::cout << x << " " << y << std::endl;
+    std::cout << x << "     " << y << std::endl;
 }
 Move Move::add(const Move & m) const{
     Move one(x + m.x, y + m.y);
